@@ -1,0 +1,25 @@
+.App{
+	overflow-x: hidden
+}
+.pagination-div{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	.page-btns{
+		color: white;
+		background-color: #212121;
+		padding: 10px;
+		border: 0px;
+		border-radius: 2px;
+		transition: 0.5s all;
+		cursor: pointer;
+		&:hover{
+			background-color: #323232;
+		}
+	}
+	.page-numbers{
+		padding: 4px;
+	}
+}
+

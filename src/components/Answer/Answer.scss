@@ -1,0 +1,35 @@
+.answer-div{
+	@media screen and (max-width: 700px){
+		.overflow-div{
+			overflow-x: scroll;
+		}
+	}
+	text-align: left;
+	padding: 10px;
+	color: #fff;
+	border-radius: 20px;
+	margin-bottom: 14px;
+	box-shadow: -2px 4px 14px #323232;
+	padding-left: 40px;
+	padding-right: 40px;
+	.title{
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.numbers{
+		display: flex;
+		div{
+			margin-right: 20px
+		}
+	}
+	.tags{
+		margin-top: 10px;
+		display: flex;
+		div{
+			padding: 6px;
+			background-color: #110291;
+			border-radius: 4px;
+			margin-right: 20px;
+		}
+	}
+}

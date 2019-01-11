@@ -1,0 +1,15 @@
+{
+  "short_name": "Search Overflow",
+  "name": "Adeniyi Search Oveflow",
+  "icons": [
+    {
+      "src": "https://pbs.twimg.com/profile_images/1032361834085408768/UTSm_MOD_400x400.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

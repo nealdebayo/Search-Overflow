@@ -1,0 +1,28 @@
+.question-div{
+	text-align: left;
+	background-color: #0d7377;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	box-shadow: -2px 4px 14px #323232;
+	.question{
+		font-weight: 700
+	}
+	.numbers{
+		display: flex;
+		div{
+			margin-right: 20px
+		}
+	}
+	.tags{
+		margin-top: 10px;
+		display: flex;
+		div{
+			padding: 6px;
+			background-color: #212121;
+			border-radius: 4px;
+			margin-right: 20px;
+		}
+	}
+}

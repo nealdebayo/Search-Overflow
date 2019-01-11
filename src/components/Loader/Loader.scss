@@ -1,0 +1,26 @@
+.loader-div{
+	text-align: center;
+	.loader{
+		animation-name: rotateLoader;
+		animation-duration: 0.8s;
+	    animation-iteration-count: infinite;
+	    animation-timing-function: ease-in-out;
+	}
+	@keyframes rotateLoader{
+	    /*one transform at a time*/
+	    from{
+	    	transform-origin: 50% 50%;
+	        -ms-transform: rotate(0deg); /* IE 9 */
+	        -webkit-transform: rotate(0deg); /* Safari */
+	        transform: rotate(0deg);
+
+	    }
+	    to{
+	    	transform-origin: 50% 50%;
+		    -ms-transform:rotate(360deg); /* IE 9 */
+		    -webkit-transform:rotate(360deg); /* Safari */
+		    transform:rotate(360deg);
+	    }
+	}
+}
+
